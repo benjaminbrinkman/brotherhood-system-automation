@@ -1,0 +1,3 @@
+So yeah, you might be wondering what this little repository on GitHub is supposed to be.  Right now, it's nothing.  What will it be?  An automation platform.  It will be able to run any application on a system (no need to modify existing code) at specific intervals (thanks to cron) in a controlled loop, just once, or whatever, asynchronously, giving it a parallel feel.   I want it to be possible for someone (who might not even know what python is) to implement a python module with just a list of applications to be run, with various optional properties defined.  I also want it to be easy for a python guru to define their own logic in such a module.  
+
+So, you know what they say?  Release early, release often.  So expect code soon.
