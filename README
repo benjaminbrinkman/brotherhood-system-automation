@@ -1,3 +1,15 @@
-So yeah, you might be wondering what this little repository on GitHub is supposed to be.  Right now, it's nothing.  What will it be?  An automation platform.  It will be able to run any application on a system (no need to modify existing code) at specific intervals (thanks to cron) in a controlled loop, just once, or whatever, asynchronously, giving it a parallel feel.   I want it to be possible for someone (who might not even know what python is) to implement a python module with just a list of applications to be run, with various optional properties defined.  I also want it to be easy for a python guru to define their own logic in such a module.  
+"So yeah, you might be wondering what this little repository on GitHub is supposed to be.  Right now, it's nothing.  What will it be?  An automation platform.  It will be able to run any application on a system (no need to modify existing code) at specific intervals (thanks to cron) in a controlled loop, just once, or whatever, asynchronously, giving it a parallel feel.   I want it to be possible for someone (who might not even know what python is) to implement a python module with just a list of applications to be run, with various optional properties defined.  I also want it to be easy for a python guru to define their own logic in such a module.  
 
-So, you know what they say?  Release early, release often.  So expect code soon.
+So, you know what they say?  Release early, release often.  So expect code soon." --Me
+
+So I wrote the above quote earlier today.  Most of it is still true.  However, the important thing is, some of it is not true anymore.
+
+In the directory for this application, run the following:
+
+./brotherhood example-apprun
+
+This will run applications on your system, based on the configuration in example-apprun.py.  Take a look at example-apprun.py.  It's well commented.
+
+Finally, I'd like to note a few things.  brotherhood is just a symlink to main.py
+
+My development platform is Slackware Linux, but the above should work on any distro of Linux, probably even OS X and the BSDs.  It should even work on Windows, if you know exactly what you're doing.
